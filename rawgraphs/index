@@ -6,6 +6,6 @@
   <title>Streem Graph</title>
 </head>
 <body>
-<object data="https://njulisoto.github.io/infovis/rawgraphs/streemgraph.svg" type=""></object>
+<object data="streemgraph.svg" type=""></object>
 </body>
 </html>
