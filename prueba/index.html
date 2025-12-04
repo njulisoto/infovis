@@ -14,21 +14,48 @@
     }
 
     .container {
-      max-width: 1000px;
+      max-width: 1100px;
       margin: 0 auto;
     }
 
     h1 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
+      font-size: 1.6rem;
       text-align: center;
+      margin-bottom: 1.5rem;
     }
 
+    .chart-wrapper {
+      margin-bottom: 30px;
+    }
+
+
     .flourish-embed {
-      margin: 20px 0;
+      width: 100%;
+    }
+
+    .flourish-embed iframe {
+      width: 100% !important;
+      height: 520px !important; 
+    @media (max-width: 768px) {
+      .flourish-embed iframe {
+        height: 420px !important;
+      }
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Visualizaciones de running</h1>
+
+
+    <div class="chart-wrapper">
+      <div class="flourish-embed flourish-hierarchy" data-src="visualisation/26630550"></div>
+    </div>
+
+    <div class="chart-wrapper">
+      <div class="flourish-embed flourish-scatter" data-src="visualisation/26632689"></div>
+    </div>
+  </div>
+
+  <script src="https://public.flourish.studio/resources/embed.js"></script>
+</body>
+</html>
